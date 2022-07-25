@@ -1,0 +1,14 @@
+.circle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #9b5ce2;
+    transition: transform .25s;
+    background-color: #9b5ce2;
+}
+
+.circle.active {
+    transform: translate(-50%, -50%) scale(.5);
+}
